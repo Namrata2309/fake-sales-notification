@@ -3,11 +3,14 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+body{
+  background-color: #a0a0a0;
+}
 #alert-btn {
   cursor: pointer;
 }
 #product-alert {
-  width: 350px;
+  width: 310px;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -17,6 +20,7 @@
   display: none;
   align-items: flex-start;
   gap: 0.5em;
+  background-color: aliceblue;
 }
 .product-info {
   display: flex;
